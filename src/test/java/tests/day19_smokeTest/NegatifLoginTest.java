@@ -7,13 +7,13 @@ import pages.BrcPage;
 import utilities.ConfigReader;
 import utilities.Driver;
 
-public class NegatifLoginText {
+public class NegatifLoginTest {
 
 
-
+    BrcPage brcPage;
     @Test
     public void yanlisSifre()  {
-        BrcPage brcPage=new BrcPage();
+        brcPage=new BrcPage();
         // Bir test method olustur positiveLoginTest()
         //       https://www.bluerentalcars.com/ adresine git
 
@@ -43,7 +43,7 @@ public class NegatifLoginText {
 
     @Test
     public void yanlisEmail()  {
-        BrcPage brcPage=new BrcPage();
+        brcPage=new BrcPage();
         // Bir test method olustur positiveLoginTest()
         //       https://www.bluerentalcars.com/ adresine git
         Driver.getDriver().get(ConfigReader.getProperty("brcUrl"));
@@ -67,7 +67,7 @@ public class NegatifLoginText {
 
     @Test
     public void yanlisSifreVeEmail()  {
-        BrcPage brcPage=new BrcPage();
+        brcPage=new BrcPage();
         // Bir test method olustur positiveLoginTest()
         //       https://www.bluerentalcars.com/ adresine git
 
