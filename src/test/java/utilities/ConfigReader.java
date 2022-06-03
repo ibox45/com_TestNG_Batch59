@@ -1,7 +1,6 @@
 package utilities;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 
@@ -15,7 +14,7 @@ public class ConfigReader {
             FileInputStream fis=new FileInputStream(dosyaYolu);
             //fis dosyayolunu tanımladgmız configuration.properties dosyasını okudu
             properties=new Properties();
-            properties.load(fis);  //fis'in okudugu bilgileri propertiesê yukledi
+            properties.load(fis);  //fis'in okudugu bilgileri properties'e yukledi
         }  catch (IOException e) {
             e.printStackTrace();
         }
