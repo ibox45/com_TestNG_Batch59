@@ -57,9 +57,10 @@ public class NegatifLoginTest {
         brcPage.passwordTextBox.sendKeys(ConfigReader.getProperty("brcValidPassword"));
         //      login butonuna bas
         brcPage.ikinciLoginButonu.click();
+
         //Degerleri girildiginde sayfaya basarili sekilde girilemedigini test et
         Assert.assertTrue(brcPage.ikinciLoginButonu.isDisplayed());
-        Driver.closeDriver();
+       // Driver.closeDriver();
 
 
     }

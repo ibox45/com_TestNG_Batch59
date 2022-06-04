@@ -25,4 +25,7 @@ public class BrcPage {
     @FindBy(id="dropdown-basic-button")
     public WebElement kullaniciProfilIsmi;
 
+    @FindBy(xpath = "//div[text()='invalid credentials']")
+    public WebElement invalidMesaji;
+
 }
