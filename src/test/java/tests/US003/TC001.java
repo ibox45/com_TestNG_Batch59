@@ -44,7 +44,7 @@ public class TC001 {
         js.executeScript("arguments[0].click();",trd.urun4SepeteEkleButton);
         //13_Ürün 5 icin sepete ekle ikonuna tıkla
         js.executeScript("arguments[0].click();",trd.urun5SepeteEkleButton);
-        ReusableMethods.waitFor(30);  //urunlerin sepete eklenmesi zaman aldıgı icin bekleme suresi yerlestirdik
+        ReusableMethods.waitFor(10);  //urunlerin sepete eklenmesi zaman aldıgı icin bekleme suresi yerlestirdik
         //14_"Sepetim" butonuna tıkla
         trd.sepetimButton.click();
 

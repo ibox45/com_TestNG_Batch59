@@ -85,6 +85,79 @@ public class TradylinnPageIbrahim {
     @FindBy(xpath = "//button[@name='clear_cart']")
     public WebElement temizleButton;
 
+    @FindBy(xpath="(//tr[@class='woocommerce-cart-form__cart-item cart_item'])[1]")
+    public WebElement sepetOgesiSatir1;
+
+    @FindBy(xpath="(//tr[@class='woocommerce-cart-form__cart-item cart_item'])[2]")
+    public WebElement sepetOgesiSatir2;
+
+    @FindBy(xpath="(//tr[@class='woocommerce-cart-form__cart-item cart_item'])[3]")
+    public WebElement sepetOgesiSatir3;
+
+    @FindBy(xpath="(//tr[@class='woocommerce-cart-form__cart-item cart_item'])[4]")
+    public WebElement sepetOgesiSatir4;
+
+    @FindBy(xpath="(//tr[@class='woocommerce-cart-form__cart-item cart_item'])[5]")
+    public WebElement sepetOgesiSatir5;
+
+    @FindBy(xpath = "//th[@class='product-thumbnail']")
+    public WebElement urunYazisi;
+
+    @FindBy(xpath = "//th[@class='product-price']")
+    public WebElement fiyatYazisi;
+
+    @FindBy(xpath = "//th[@class='product-quantity']")
+    public WebElement miktarYazisi;
+
+    @FindBy(xpath = "//th[@class='product-subtotal']")
+    public WebElement araToplamYazisi;
+
+    @FindBy(xpath="//button[@name='apply_coupon']")
+    public WebElement kuponKullanButton;
+
+    @FindBy(xpath = "(//a[@href='https://tradylinn.com/shop/'])[1]")
+    public WebElement alisVeriseDevamEtButton;
+
+    @FindBy(xpath = "(//h4[text()='Kargo Bilgileri'])[1]")
+    public WebElement kargoBilgileriYazisi;
+
+    @FindBy(xpath = "//tr[@class='order-total']")
+    public WebElement toplamBilgisi;
+
+    @FindBy (xpath = "(//button[@class='quantity-plus w-icon-plus'])[2]")
+    public WebElement artiButton;
+
+    @FindBy (xpath="//button[@name='update_cart']")
+    public WebElement sepetiYenileButton;
+
+    @FindBy (xpath = "//td[@data-title='Toplam']")
+    public WebElement toplamFiyatYazisi;
+
+    @FindBy(xpath = "(//input[@type='number'])[2]")
+    public WebElement miktarHanesi;
+
+    @FindBy(xpath = "(//button[@class='quantity-minus w-icon-minus'])[2]")
+    public WebElement eksiButton;
+
+    @FindBy(xpath = "//a[@class='checkout-button button alt wc-forward']")
+    public WebElement odemeSayfasinaGitButton;
+
+    @FindBy (xpath = "//div[@class='woocommerce-billing-fields']")
+    public WebElement faturaDetaylariAlani;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
