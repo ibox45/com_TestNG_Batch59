@@ -54,9 +54,7 @@ public class TC001 {
         //14_"Sepetim" butonuna tıkla
         trd.sepetimButton.click();
 
-        //15_Siparişlerimin sepette oldugunu test et
-        //herbir urunun kucuk resımlerının uzerınde beliren
-        // (x) simgesi erişilebilir ise urunler sepete eklenmis demektir.
+
         //urunlerin sepete eklenmesi zaman aldıgından son remove button gorunene kadar  bekleme suresi yerlestirdik
         ReusableMethods.waitForVisibility(trd.removeButton5,120);
 
@@ -121,6 +119,7 @@ public class TC001 {
         //Ödeme sayfasına yönlendirildiğimizin delili olan "fatura detayları alanı" görünmeli
         Assert.assertTrue(trd.faturaDetaylariAlani.isDisplayed());
         Driver.closeDriver();
+
 
 
 

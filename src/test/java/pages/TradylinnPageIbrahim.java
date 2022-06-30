@@ -76,8 +76,6 @@ public class TradylinnPageIbrahim {
     @FindBy(xpath="//p[@class='woocommerce-notice woocommerce-notice--success woocommerce-thankyou-order-received order-success']")
     public WebElement siparisinizAlinmistirYazisi;
 
-    @FindBy(xpath = "//input[@id='payment_method_cod']")
-    public WebElement payAtTheDoorRadioButton;
 
     @FindBy(xpath = "//a[@class='button wc-forward']")
     public WebElement sepetiGoruntuleButton;
@@ -144,6 +142,25 @@ public class TradylinnPageIbrahim {
 
     @FindBy (xpath = "//div[@class='woocommerce-billing-fields']")
     public WebElement faturaDetaylariAlani;
+
+    @FindBy(xpath = "//p[@class='cart-empty woocommerce-info']")
+    public WebElement sepetinizSuAndaBosYazisi;
+
+    @FindBy(xpath = "//p[@class='stock in-stock']")
+    public WebElement stokSayisiYazisi;
+
+    @FindBy(xpath = "//input[@type='number']")
+    public WebElement miktarHanesi2;
+
+    @FindBy (xpath = "//button[@class='single_add_to_cart_button button alt']")
+    public WebElement sepeteEkleStokFazlasi;
+
+    @FindBy(xpath = "//p[@class='woocommerce-mini-cart__empty-message empty-msg']")
+    public WebElement sepetinizdeUrunBulunmuyorYazisi;
+
+
+
+
 
 
 
